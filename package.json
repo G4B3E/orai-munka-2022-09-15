@@ -1,0 +1,26 @@
+{
+  "name": "js_project",
+  "version": "1.0.0",
+  "description": "oraimunka",
+  "main": "backend src/lista.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx webpack",
+    "start": "backend src/lista.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gibsz Jakab",
+  "license": "ISC",
+  "repository": {
+    "url": "lista.js"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "css-loader": "^6.7.1",
+    "lodash": "^4.17.21",
+    "style-loader": "^3.3.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
+}
